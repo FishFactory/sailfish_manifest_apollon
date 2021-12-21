@@ -2,27 +2,31 @@
 <manifest>
 	<project
     path="device/xiaomi/sm8250-common"
-    name="LineageOS/android_device_xiaomi_sm8250-common"
-    revision="lineage-18.1"
+    name="FishFactory/device_xiaomi_sm8250-common"
+    revision="lineage-17.1"
   />
 	<project
     path="device/xiaomi/apollon"
-    name="LineageOS/android_device_xiaomi_apollon"
-    revision="lineage-18.1"
+    name="FishFactory/device_xiaomi_apollopro"
+    revision="lineage-17.1"
   />
 	<project
+    path="kernel/xiaomi/apollon"
+    name="LineageOS/FishFactory/Xiaomi_Kernel_OpenSource"
+    revision="apollo-q-oss"
+  />
+  <project
     path="kernel/xiaomi/sm8250"
-    name="LineageOS/android_kernel_xiaomi_sm8250"
-    revision="lineage-18.1"
-  />
+    name="FishFactory/kernel_xiaomi_sm8250"
+    revision="QK-ten" />
 	<project
-    path="vendor/xiaomi/sm8250-common"
-    name="Project-Fluid-Devices/vendor_xiaomi_sm8250-common"
+    path="vendor/xiaomi/apollon"
+    name="FishFactory/vendor_xiaomi_apollon"
     revision="fluid-11"
   />
 	<project
-    path="vendor/xiaomi/apollon"
-    name="Project-Fluid-Devices/vendor_xiaomi_apollon"
+    path="vendor/xiaomi/sm8250-common"
+    name="FishFactory/vendor_xiaomi_sm8250-common"
     revision="fluid-11"
   />
 	<project
